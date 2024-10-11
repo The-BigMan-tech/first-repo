@@ -1,0 +1,17 @@
+﻿Project 1
+1.Web development is the encapsulation of all the processes involved in creating a website to be made available to the world wide web and it is essential in the context of the internet because without any website,there will be no proper means for sharing information.
+
+
+2.Yes,I have heard of HTML and it stands for HyperText Markup Language.Its primary purpose in web development is to define the content structure of a page to be displayed by the browser and to enable links between different websites and not to program a website.
+
+
+3.Yes, I have heard of CSS and it stands for cascading style sheet.It is used to style the structure of an html page to make a beautiful web design by applying rules that the html document must adhere to.
+
+
+4.Yes,i have heard of JavaScript and it is a scripting language like python used to make a website dynamic meaning that the web will be interactive and not just statically displayed to the user.It is essential for building an interactive website because it is event driven meaning that it can listen to user inputs and process logic,and give a dynamic output based on the input.
+
+
+5.Yes,I am familiar with react and node js and react is a javascript framework while node js is a runtime environment for JS meaning that it can run js outside the browser.
+
+
+6.I want to learn web development so that i can make very interactive web apps and possibly make games with it.By learning,HTML,CSS,JS,React and node js,i hope to achieve the knowledge i need to understand the full structure of a web and use it to the best i can.
