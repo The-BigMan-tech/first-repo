@@ -1,0 +1,138 @@
+/* * SIMPLE SELECTORS*/
+/*Element*/
+h1 {
+  color: inherit;
+}
+/*Class*/
+.custom_class {
+  color: inherit;
+}
+/*ID*/
+#custom_id {
+  color: inherit;
+}
+
+/* *ATTRIBUTE SELECTORS */
+/*Syntax-1*/
+[href] {
+  color: inherit;
+}
+/*Syntax-2*/
+p[class] {
+  background-color: inherit;
+}
+/*Syntax-3*/
+p[class="sound"] {
+  background-color: inherit;
+}
+/*A lot of specification*/
+p[class~="sound"] {
+  color: inherit;
+}
+p[class|="sound"] {
+  color: inherit;
+}
+p[class^="sound"] {
+  color: inherit;
+}
+p[class$="sound"] {
+  color: inherit;
+}
+p[class*="sound"] {
+  color: inherit;
+}
+
+/* *UNIVERSAL SELECTOR */
+* {
+  color: inherit;
+}
+/* * PSEUDO ClASS SELECTORS */
+p:hover {
+  color: inherit;
+}
+/* *PSEUDO ELEMENT SELECTORS */
+p:hover::first-letter {
+  color: inherit;
+}
+/* *GROUPING SELECTORS */
+p,
+h1 {
+  color: inherit;
+}
+/* * COMBINATORS */
+/*General sibling*/
+h1 ~ b {
+  background-color: blue;
+}
+/*Adjacent sibling*/
+p + em {
+  background-color: black;
+}
+/*Child selector*/
+p > em {
+  background-color: orange;
+}
+/*Descendant selector*/
+body em {
+  background-color: blueviolet;
+}
+/*You can use no space for more specification */
+
+/* *STYLING*/
+/*Text*/
+.text_styles {
+  color: orange;
+  text-transform: uppercase;
+  text-align: justify;
+  text-decoration-line: underline;
+  text-decoration-color: brown;
+  letter-spacing: 1rem;
+  word-spacing: 2rem;
+  line-height: 2rem;
+}
+/* Fonts */
+.font_styles {
+  font-family: Consolas, Arial Black;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 800rem;
+  font-stretch: narrower;
+}
+/* Background */
+.background_styles {
+  background-color: inherit;
+  background-image: linear-gradient(to right, red, yellow);
+  background-attachment: scroll;
+  background-position: center center;
+}
+/* Border */
+.border_styles {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: orange;
+  border-radius: 10px;
+}
+/* Grid */
+.grid_container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+.grid_item {
+  grid-area: header;
+  grid-column: 1;
+
+  /* Box model */
+}
+.box_model {
+  width: inherit;
+  height: inherit;
+  padding: inherit;
+  border: inherit;
+  margin: inherit;
+}
